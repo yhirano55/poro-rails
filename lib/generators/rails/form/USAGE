@@ -2,7 +2,7 @@ Description:
     Generates a form object with the given name.
 
 Example:
-    rails generate poro:form create_article
+    rails generate form create_article
 
     This will create:
         app/forms/create_article_form.rb

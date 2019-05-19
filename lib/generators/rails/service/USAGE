@@ -2,7 +2,7 @@ Description:
     Generates a service object with the given name.
 
 Example:
-    rails generate poro:service create_article
+    rails generate service create_article
 
     This will create:
         app/forms/create_article_service.rb

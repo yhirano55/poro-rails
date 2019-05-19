@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ### Plain Old Ruby Object
 
-Generate poro via command line:
+Generate a plain old ruby object via command line:
 
     $ rails g poro Person
           create  app/models/person.rb
@@ -47,9 +47,9 @@ end
 
 ### Form Object
 
-Generate poro via command line:
+Generate a form object via command line:
 
-    $ rails g poro:form create_user
+    $ rails g form create_user
           create  app/forms/create_user_form.rb
           invoke  test_unit
           create    test/forms/create_user_form_test.rb
@@ -74,9 +74,9 @@ end
 
 ### Service Object
 
-Generate poro via command line:
+Generate a service object via command line:
 
-    $ bin/rails g poro:service create_payment
+    $ bin/rails g service create_payment
           create  app/services/create_payment_service.rb
           invoke  test_unit
           create    test/services/create_payment_service_test.rb
@@ -101,4 +101,4 @@ end
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+MIT

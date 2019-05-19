@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = 'poro-rails'
-  s.version       = '0.1.0'
+  s.version       = '0.2.0'
   s.authors       = ['Yoshiyuki Hirano']
   s.email         = ['yhirano@me.com']
   s.homepage      = 'https://github.com/yhirano55/poro-rails'
