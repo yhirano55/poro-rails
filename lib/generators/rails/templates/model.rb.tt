@@ -1,0 +1,5 @@
+<% module_namespacing do -%>
+class <%= class_name %>
+  # include ActiveModel::Model
+end
+<% end -%>

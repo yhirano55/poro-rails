@@ -1,0 +1,8 @@
+Description:
+    Generates a plain old ruby object with the given name.
+
+Example:
+    rails generate poro employee
+
+    This will create:
+        app/models/employee.rb
