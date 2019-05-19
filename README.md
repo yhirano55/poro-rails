@@ -1,6 +1,6 @@
 # poro-rails
 
-This gem provides generators of **Plain Old Ruby Object** (PORO), **Form Object** and **Service Object** for Ruby on Rails.
+This gem provides generators of **Plain Old Ruby Objects**, **Form Objects** and **Service Objects** for Ruby on Rails.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-### Plain Old Ruby Object
+### Plain Old Ruby Objects
 
 Generate a plain old ruby object via command line:
 
@@ -34,7 +34,9 @@ These files are created (if it use RSpec in your project, it creates a spec file
 class Person
   # include ActiveModel::Model
 end
+```
 
+```ruby
 # test/models/person_test.rb
 require 'test_helper'
 
@@ -45,7 +47,7 @@ class PersonTest < ActiveSupport::TestCase
 end
 ```
 
-### Form Object
+### Form Objects
 
 Generate a form object via command line:
 
@@ -61,7 +63,9 @@ These files are created (if it use RSpec in your project, it creates a spec file
 class CreateUserForm
   # include ActiveModel::Model
 end
+```
 
+```ruby
 # test/forms/create_user_form_test.rb
 require 'test_helper'
 
@@ -72,7 +76,7 @@ class CreateUserFormTest < ActiveSupport::TestCase
 end
 ```
 
-### Service Object
+### Service Objects
 
 Generate a service object via command line:
 
@@ -88,7 +92,9 @@ These files are created (if it use RSpec in your project, it creates a spec file
 class CreatePaymentService
   # include ActiveModel::Model
 end
+```
 
+```ruby
 # test/services/create_payment_service_test.rb
 require 'test_helper'
 

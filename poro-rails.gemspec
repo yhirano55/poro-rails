@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors       = ['Yoshiyuki Hirano']
   s.email         = ['yhirano@me.com']
   s.homepage      = 'https://github.com/yhirano55/poro-rails'
-  s.summary       = %(Simple Rails Generators for Plain Old Ruby Object, Form Object, and Service Object)
-  s.description   = %(This gem provides generators of Plain Old Ruby Object, Form Object, and Service Object for Ruby on Rails.)
+  s.summary       = %(Simple Rails Generators for Plain Old Ruby Objects, Form Objects, and Service Objects)
+  s.description   = %(This gem provides generators of Plain Old Ruby Objects, Form Objects, and Service Objects for Ruby on Rails.)
   s.license       = 'MIT'
   s.files         = Dir.chdir(File.expand_path('.', __dir__)) do
     `git ls-files -z`.split("\x0")
